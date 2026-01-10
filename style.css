@@ -1,0 +1,108 @@
+:root {
+    --primary: #2563eb;
+    --text: #1f2937;
+    --bg: #f9fafb;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px 20px;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    border-bottom: 2px solid var(--bg);
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    color: var(--primary);
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    margin: 5px 0;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.links a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: var(--primary);
+    font-weight: bold;
+}
+
+section {
+    margin-top: 30px;
+}
+
+h2 {
+    border-left: 4px solid var(--primary);
+    padding-left: 10px;
+    font-size: 1.5rem;
+}
+
+.item {
+    margin-bottom: 15px;
+}
+
+.item h3 {
+    margin: 0;
+    font-size: 1.1rem;
+}
+
+.item span {
+    font-size: 0.9rem;
+    color: #888;
+}
+
+.tags span {
+    background: var(--bg);
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    margin-right: 5px;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.actions {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.btn {
+    background: var(--primary);
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
